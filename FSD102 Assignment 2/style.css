@@ -1,0 +1,115 @@
+/*global*/
+:root{
+    --primary: #f3cd4f;
+
+}
+html{
+    font-size:62.5%; /*reset the html 1rem=10px*/
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Open Sans',sans-serif;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1.6rem;
+}
+/*utilities*/
+
+/*menu*/
+nav.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+img.logo{
+    height:5rem;
+}
+
+/*header*/
+header.site-header{
+    background-color: black;
+    height: 350vh;
+    text-align: center;
+}
+.site-header h1{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    padding-top: 4rem;
+}
+.site-header .title-description{
+    color: white;
+    font-size: 1.6rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+span.subs-text{
+    border-bottom: .2rem solid var(--primary);
+}
+span.subs-text:hover{
+    border-bottom: 2px solid var(--primary);
+    color: black;
+    cursor: pointer;
+}
+ /*news*/
+ .main-news{
+     height: 42rem;
+     width: 85%;
+     margin-left: auto;
+     margin-right: auto;
+     background-image: url(img/chimp.webp);
+     background-position: bottom center;
+     background-size: cover;
+ 
+ }
+ .main-news-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     height: 90%;
+     text-align: left;
+     padding: 1rem;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     color: white;
+ }
+ .main.news-text h2{
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 2rem;
+     font-size: 1.2rem;
+ }
+ .main-news-text .title{
+     font-size: 4rem;
+     font-weight: bold;
+ }
+ .article{
+    background-color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    height: 35rem;
+}
+.article h2{
+    font-size: 1.8rem;
+    font-weight: 790;
+    padding: 1.5rem;
+    text-align: left;
+}
+.article p{
+    font-weight: 700;
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
